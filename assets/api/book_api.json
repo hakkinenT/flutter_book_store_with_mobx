@@ -1,0 +1,72 @@
+[
+    {
+      "id": 1,
+      "description": "A revolução dos bichos",
+      "author": "George Orwell",
+      "price": 11.70,
+      "image-url": "https://m.media-amazon.com/images/I/91BsZhxCRjL._AC._SR360,460.jpg"
+    },
+    {
+      "id": 2,
+      "description": "E não sobrou nenhum",
+      "author": "Agatha Christie",
+      "price": 32.60,
+      "image-url": "https://m.media-amazon.com/images/I/51zbr9-XvRS._AC._SR360,460.jpg"
+    },
+    {
+      "id": 3,
+      "description": "Alice no país das maravilhas",
+      "author": "Lewis Carroll",
+      "price": 44.50,
+      "image-url": "https://m.media-amazon.com/images/I/81+UYddlEeL._AC._SR360,460.jpg"
+    },
+    {
+      "id": 4,
+      "description": "Mulherzinhas",
+      "author": "Louisa May Alcott",
+      "price": 13.41,
+      "image-url": "https://m.media-amazon.com/images/I/81R6BxuUvSL._UX300_PJprime-reading,TopRight,0,-50._AC._SR360,460_.jpg"
+    },
+    {
+      "id": 5,
+      "description": "O estranho mundo de Jack",
+      "author": "Sally Morgan",
+      "price": 44.92,
+      "image-url": "https://m.media-amazon.com/images/I/814KY3f4OgL._UX300_PJprime-reading,TopRight,0,-50._AC._SR360,460_.jpg"
+    },
+    {
+      "id": 6,
+      "description": "A comédia divina",
+      "author": "Dante Alighieri",
+      "price": 85.28,
+      "image-url": "https://m.media-amazon.com/images/I/51JuJimCo1L._AC._SR360,460.jpg"
+    },
+    {
+      "id": 7,
+      "description": "Os miseráveis",
+      "author": "Victor Hugo",
+      "price": 1.99,
+      "image-url": "https://m.media-amazon.com/images/I/81C1BnB44EL._AC._SR360,460.jpg"
+    },
+    {
+      "id": 8,
+      "description": "Emma",
+      "author": "Jane Austin",
+      "price": 64.95,
+      "image-url": "https://m.media-amazon.com/images/I/81WNQU+UJKL._AC._SR360,460.jpg"
+    },
+    {
+      "id": 9,
+      "description": "O pequeno príncipe",
+      "author": "Antoine de Saint-Exupéry",
+      "price": 8.50,
+      "image-url": "https://m.media-amazon.com/images/I/71LJ4k-k9hL._AC._SR360,460.jpg"
+    },
+    {
+      "id": 10,
+      "description": "Dom Casmurro",
+      "author": "Machado de Assis",
+      "price": 18.43,
+      "image-url": "https://m.media-amazon.com/images/I/61x1ZHomWUL._AC._SR360,460.jpg"
+    }
+  ]
