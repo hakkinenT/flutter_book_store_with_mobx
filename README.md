@@ -10,7 +10,7 @@ O projeto contém as seguintes funcionalidades:
 - Adicionar um ou vários livros ao carrinho
 - Remover um ou vários livros do carrinho
 
-## Technologies
+## Tecnologias
 As seguintes tecnologias foram usadas neste projeto: 
 
 > Veja o arquivo [pubspec.yaml](pubspec.yaml)
