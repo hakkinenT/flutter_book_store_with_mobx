@@ -1,16 +1,29 @@
-# flutter_book_store
+# Flutter Book Store App com Mobx
+Projeto simples de uma loja de livros usando o Mobx como gerenciador de estado.
 
-A new Flutter project.
+## Status do Projeto
+Concluído
 
-## Getting Started
+## Funcionalidade
 
-This project is a starting point for a Flutter application.
+O projeto contém as seguintes funcionalidades:
+- Adicionar um ou vários livros ao carrinho
+- Remover um ou vários livros do carrinho
 
-A few resources to get you started if this is your first Flutter project:
+## Technologies
+As seguintes tecnologias foram usadas neste projeto: 
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+> Veja o arquivo [pubspec.yaml](pubspec.yaml)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- [provider](https://pub.dev/packages/provider)
+- [mobx](https://pub.dev/packages/mobx)
+- [flutter_mobx](https://pub.dev/packages/flutter_mobx)
+- [mobx_codegen](https://pub.dev/packages/mobx_codegen)
+- [build_runner](https://pub.dev/packages/build_runner)
+## Conhecimentos aplicados de Flutter/Dart
+- Navegação 1.0
+- Custom Widgets
+
+## Padrões de projeto
+Os seeguintes padrões de projeto foram aplicados:
+- Repository
