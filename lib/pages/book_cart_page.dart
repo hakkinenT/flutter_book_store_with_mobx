@@ -155,21 +155,30 @@ class BookCartList extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      constraints: BoxConstraints(
-          minHeight: 180, maxHeight: MediaQuery.of(context).size.height - 300),
-      child: Observer(
-        builder: (_) {
-          return ListView.separated(
-              primary: false,
-              itemCount: cartController.cart.length,
-              separatorBuilder: (context, index) => const Divider(),
-              itemBuilder: (context, index) {
-                final cartItem = cartController.cart[index];
-                return BookCartItem(bookItem: cartItem);
-              });
-        },
-      ),
+    return Observer(
+      builder: (_) {
+        if (cartController.cartTotalItems == 0) {
+          return Container(
+            margin: const EdgeInsets.only(top: 20, bottom: 20),
+            child: const Center(
+              child: Text(
+                "Seu carrinho está vazio",
+                style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
+              ),
+            ),
+          );
+        }
+        return ListView.separated(
+            primary: false,
+            shrinkWrap: true,
+            itemCount: cartController.cart.length,
+            separatorBuilder: (context, index) => const Divider(),
+            itemBuilder: (context, index) {
+              final cartItem = cartController.cart[index];
+
+              return BookCartItem(bookItem: cartItem);
+            });
+      },
     );
   }
 }
